@@ -1,0 +1,103 @@
+CPANA - A (hopefully) LIGHT-WEIGHT PANA IMPLEMENTATION
+
+                                                       August 18, 2010
+                                                         Mitsuru Kanda
+                                             Network System Laboratory,
+                             Corporate Research and Development Center,
+                                                   Toshiba Corparation
+
+
+ This document describes the CPANA software suites.
+
+o DIRECTORIES
+
+  cpana - PANA library
+  ceap - EAP library
+  clpe - library containing common miscellaneous functions for cpana
+         and ceap.
+  apps - contains example applications including cpaa (PAA) and cpac
+         (PaC)
+
+ See documentations files under doc/ for details. (will be available
+ soon!)
+
+o What is the CPANA?
+
+ CPANA consists of some libraries and sample applications for PANA
+ message exchange. This is provided by Toshiba Corporation. We hope it
+ can run on POSIX variant OSes like Linux and *BSD.
+
+o STANDARD REFERENCES
+
+ Currently, CPANA supports the following specifications, but does not
+ cover all details of them.
+
+  PANA
+    RFC5191 - "Protocol for Carrying Authentication for Network Access
+             (PANA)"
+    RFC5193 - "Protocol for Carrying Authentication for Network Access
+             (PANA) Framework"
+    RFC5609 - "State Machines for the Protocol for Carrying
+              Authentication for Network Access (PANA)"
+
+  EAP
+    RFC3748 - "Extensible Authentication Protocol (EAP)"
+    RFC4137 - "State Machines for EAP Peer and Authenticator"
+
+  EAP-PSK
+    RFC4764 - "The EAP-PSK Protocol: A Pre-Shared Key Extensible
+              Authentication Protocol (EAP) Method"
+
+o Install
+
+ CPANA probably requires following libraries:
+
+  - OpennSSL libirary
+    http://wwww.openssl.org
+  - 
+
+ Building the CPANA softwares:
+
+  You can just run the 'configure' script and 'make'.
+
+ Install the CPANA softwares:
+
+  After compilation, just do 'make install' as a root privilege.
+
+o Contact Points
+
+ Informations about CPANA are availabel at the project's web site:
+
+  http://cpana.sourceforge.net
+
+ If you have any questions about CPANA, you can ask to the mailing
+ list:
+
+  (will be available soon!)
+
+ Or mailto: cpana@isl.rdc.toshiba.co.jp
+
+o  Copyright
+
+ Basically this software suites follows the 3 clouds BSD-like
+ copyright except there's special notice and the copyright holder is
+ Toshiba Corporation. In short, the code is freely available but with
+ no warranty.
+
+
+o Initial Authors
+
+  Kensaku Fujimoto    Toshiba Corporation
+  Atsushi Fukumoto    Toshiba Corporation
+  Naoki Esaka         Toshiba Corporation
+  Yasuyuki Tanaka     Toshiba Corporation
+
+
+o Acknowledgments
+
+ The following folks contributed for the initial work like testing,
+ code cleanup, and so on.
+
+ Yoshimichi Tanizawa  Toshiba Corporation
+ Mariko Matsunaga
+ Victor I. Fajardo

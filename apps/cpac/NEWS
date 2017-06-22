@@ -1,0 +1,13 @@
+NEWS for cpac
+
+* version 0.1 (2006-02-02)
+
+- added option "-e" to specify "hook" script.
+  following environment variables will be set in execution of the script:
+    pana_reason ... "phase" indicates a change of the session phase.
+    pana_phase ... the current session phase.
+    pana_pac_ip_address ... dotted IP address of PaC.
+
+* version 0.1 (2006-01-30)
+
+- added command line option "-d" and "-q" to control verbosity of messages.

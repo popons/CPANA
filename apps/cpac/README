@@ -1,0 +1,6 @@
+This directory contains an application program named "cpac,"
+a sample implemetation of PaC using CPANA library.
+The primary purpose of the program is to show an example of
+usage of CPANA library.  Usability and applicability on the real
+environment is not considered.
+Some error checking and error recovery may be incomplete.

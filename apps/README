@@ -1,0 +1,5 @@
+This directory contains some sample applications using libcpana and libceap.
+
+cpaa - a sample implematation of PAA.
+
+cpac - a sample implematation of PaC.

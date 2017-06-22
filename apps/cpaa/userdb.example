@@ -1,0 +1,7 @@
+# userdb.example - user database file example
+#
+# FORMAT:
+# <identity> ":" <secret in hexadecimal> [ ":" <reserved area> ]
+#
+user1:5365637265742050617373706872617365
+user2:686f6765
